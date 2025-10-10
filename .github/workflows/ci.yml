@@ -6,7 +6,7 @@ on:
       - main
       - release
       - development
-      - 'features/*'
+    
 
 jobs:
   build-and-test:
