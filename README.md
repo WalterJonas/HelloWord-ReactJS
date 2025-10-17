@@ -33,7 +33,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](docs/casos_de_uso.png)
+![Diagrama de Casos de Uso](docs/casos_de_uso.jpg)
 
 ### Diagrama de Sequência
 ![Diagrama de Sequência](docs/diagrama_sequencia.png)
@@ -48,3 +48,5 @@ O sistema adota o estilo arquitetural **MVC (Model–View–Controller)**, separ
 - **Model:** lógica e acesso a dados.  
 - **View:** interface e interação com o usuário.  
 - **Controller:** coordenação entre as camadas.
+
+- ![Arquiteura do Sistema](docs/arquiterura.png)
