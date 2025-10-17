@@ -33,7 +33,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](docs/atorUC.png)
+![Diagrama de Casos de Uso](docs/casos_de_uso.png)
 
 ### Diagrama de Sequência
 ![Diagrama de Sequência](docs/diagrama_sequencia.png)
