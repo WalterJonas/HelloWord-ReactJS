@@ -8,8 +8,8 @@ Avalia o **cumprimento das práticas de DevOps e controle de versão**.
 
 ---
 
-### 🧪 Auditoria de Qualidade do Produto (Software)
-Avalia o **comportamento e a entrega do sistema** em relação aos requisitos e boas práticas.  
+### 📋 Auditoria de Requisitos – Qualidade do Produto (Especificações)
+Avalia a **clareza, consistência e rastreabilidade dos requisitos**.  
 
 - [ ] O requisito é completo (não omite cenários)
 - [ ] O requisito é consistente (sem conflito com outros)
