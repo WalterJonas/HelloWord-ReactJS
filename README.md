@@ -1,30 +1,52 @@
-# Projeto React Hello World
+# Especificação de Requisitos do Sistema (ERS/SRS)
 
-Um projeto React simples que exibe "Hello World" na tela.
+## Descrição Geral do Sistema
+O sistema tem como objetivo [**descrever brevemente a finalidade e escopo geral do sistema**].  
+Inclui o perfil dos usuários, principais funcionalidades e contexto de operação.
 
-## Como executar
+---
 
-1. Instale as dependências:
-```bash
-npm install
-```
+## Requisitos Gerais
 
-2. Execute o projeto:
-```bash
-npm start
-```
+### Requisitos Funcionais (RF)
+| ID | Descrição | Prioridade |
+|----|------------|-----------|
+| RF01 | O usuário deve poder realizar login no sistema. |Essencial|
+| RF02 | O sistema deve permitir o cadastro de tarefas. |Essencial |
+| RF03 | O usuário pode excluir uma tarefa cadastrada. | Essencial |
 
-3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+### Requisitos Não Funcionais (RNF)
+| ID | Descrição | Prioridade |
+|----|------------|-----------|
+| RNF01 | O sistema deve responder em até 2 segundos por requisição. | Essencial |
+| RNF02 | O acesso deve ser protegido por autenticação segura. | Essencial |
+| RNF03 | A interface deve ser intuitiva e responsiva. | Essencial |
 
-## Estrutura do projeto
+### Regras de Negócio (RN)
+| ID | Descrição | Prioridade |
+|----|------------| -----------|
+| RN01 | Cada usuário deve possuir um e-mail único para cadastro. | Essencial |
+| RN02 | Uma tarefa concluída não pode ser editada. | Essencial | Essencial |
 
-- `src/App.js` - Componente principal que exibe "Hello World"
-- `src/App.css` - Estilos do componente
-- `src/index.js` - Ponto de entrada da aplicação
-- `public/index.html` - Template HTML
+---
 
-## Scripts disponíveis
+## Diagramas UML
 
-- `npm start` - Executa o projeto em modo de desenvolvimento
-- `npm build` - Cria uma versão de produção
-- `npm test` - Executa os testes
+### Diagrama de Casos de Uso
+![Diagrama de Casos de Uso](docs/casos_de_uso.jpg)
+
+### Diagrama de Sequência
+![Diagrama de Sequência](docs/diagrama_sequencia.png)
+
+### Diagrama de Atividades
+![Diagrama de Atividades](docs/diagrama_atividades.png)
+
+---
+
+## Arquitetura do Sistema
+O sistema adota o estilo arquitetural **MVC (Model–View–Controller)**, separando responsabilidades entre:
+- **Model:** lógica e acesso a dados.  
+- **View:** interface e interação com o usuário.  
+- **Controller:** coordenação entre as camadas.
+
+- ![Arquiteura do Sistema](docs/arquiterura.png)
