@@ -11,7 +11,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 ### Requisitos Funcionais (RF)
 | ID | Descrição | Prioridade |
 |----|------------|-----------|
-| RF01 | O usuário deve poder realizar login no sistema. |Essencial|
+| RF01 | O sistema deve permitir login no sistema. |Essencial|
 | RF02 | O sistema deve permitir o cadastro de tarefas. |Essencial |
 | RF03 | O usuário pode excluir uma tarefa cadastrada. | Essencial |
 
