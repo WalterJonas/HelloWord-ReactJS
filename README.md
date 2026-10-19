@@ -11,7 +11,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 ### Requisitos Funcionais (RF)
 | ID | Descrição | Prioridade |
 |----|------------|-----------|
-| RF01 | O usuário deve poder realizar login no sistema. |Essencial|
+| RF01 | O sistema deve permitir login. |Essencial| 
 | RF02 | O sistema deve permitir o cadastro de tarefas. |Essencial |
 | RF03 | O usuário pode excluir uma tarefa cadastrada. | Essencial |
 
@@ -33,7 +33,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](docs/casos_de_uso.jpg)
+![Diagrama de Casos de Uso](docs/casos_de_uso-v1.1.jpg)
 
 ### Diagrama de Sequência
 ![Diagrama de Sequência](docs/diagrama_sequencia.png)
