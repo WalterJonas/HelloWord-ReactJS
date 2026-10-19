@@ -13,7 +13,7 @@ Inclui o perfil dos usuários, principais funcionalidades e contexto de operaç�
 |----|------------|-----------|
 | RF01 | O sistema deve permitir login. |Essencial| 
 | RF02 | O sistema deve permitir o cadastro de tarefas. |Essencial |
-| RF03 | O usuário pode excluir uma tarefa cadastrada. | Essencial |
+| RF03 | O sistema deve permitir excluir uma tarefa cadastrada. | Essencial |
 
 ### Requisitos Não Funcionais (RNF)
 | ID | Descrição | Prioridade |
